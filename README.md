@@ -8,7 +8,7 @@ This tool enhances image resolution quality using deep convolutional neural netw
 ![](data/uploads/low_res_samples.png)
 ![](data/uploads/low_res_samples2.png)
 
-## GAN Enhanced Samples
+## GAN Enhanced Super Resolution Samples
 
 ![](data/uploads/gan_improved_samples_brightened.png)
 ![](data/uploads/gan_improved_sample2_brightened.png)
