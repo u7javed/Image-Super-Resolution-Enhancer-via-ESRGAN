@@ -14,3 +14,5 @@ This tool enhance image resolution quality using deep convolutional neural netwo
 ![](data/uploads/gan_improved_sample2_brightened.png)
 
 ## One-to-One Comparions (Low Res --> Enhanced)
+
+![](data/uploads/121_lr.png) ![](data/uploads/121_enhanced.png)
