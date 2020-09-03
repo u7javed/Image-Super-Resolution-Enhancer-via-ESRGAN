@@ -26,7 +26,15 @@ Python Files
     python enhance.py --image_file test_image.png --file_length 128 --dir_to_generator best_generator_model.pt --save_directory data
     ```
     In the above command, **test_image.png**, **128**, **best_generator_model.pt**, and **data** are the parameters I passed. These may vary depending on the user's choice
-    
+
+Steps to creating your own enhancer are really simple.
+ - Step 1:
+    - Run **train.py** script with specified hyperparamters to train and save the generator models that will be used to enhance images.
+ - Step 2:
+    - Run **enhance.py** which specified hyperparamters. This file takes in the location to the image you desire to enhance, location of your ideal generator model weights, and other hyperparamters (please refer to **enhance.py** description above). This will generate an enhance version of the image you passed through
+ - Step 3:
+    - Thats it. Congratulations.
+
 Back to the functionality of this respository, lets take a look at some examples of enhanced images!
 
 ## Sample Low Resolution Images
