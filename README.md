@@ -19,4 +19,4 @@ This tool enhances image resolution quality using deep convolutional neural netw
 
 ![](data/uploads/low_res_4.png) ![](data/uploads/enhanced_image_4.png)
 
-![](data/uploads/low_res_3.png) ![](data/uploads/enhanced_image_3.png)
+![](data/uploads/low_res_5.png) ![](data/uploads/enhanced_image_5.png)
