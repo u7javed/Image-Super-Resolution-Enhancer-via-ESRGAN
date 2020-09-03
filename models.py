@@ -65,13 +65,15 @@ class ResidualInResidualDenseBlock(nn.Module):
     def __init__(self, conv_in, k_size, beta=0.2):
         super(ResidualInResidualDenseBlock, self).__init__()
 
-        self.residual = DenseBlock(conv_in, conv_in, k_size)
+        self.dense1 = DenseBlock(conv_in, conv_in, k_size)
+        self.dense2 = DenseBlock(conv_in, conv_in, k_size)
+        self.dense3 = DenseBlock(conv_in, conv_in, k_size)
         self.beta = beta
 
     def forward(self, input):
-        x = self.residual(input)
-        x = self.residual(x)
-        x = self.residual(x)
+        x = self.dense1(input)
+        x = self.dense2(x)
+        x = self.dense3(x)
         output = x.mul(self.beta)
         return output + input
 
