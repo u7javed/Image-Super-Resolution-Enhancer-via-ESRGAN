@@ -14,7 +14,7 @@ Python Files
     ```
     python train.py --hyperparameters
     ```
-    hyperparameters are a list of hyperparameters to call in order to properly execute train.py. Each hyperparamter is to be entered in this format:
+    --hyperparameters are a list of hyperparameters to call in order to properly execute train.py. Each hyperparamter is to be entered in this format:
     ```
     --image_directory data/images/
     ```
