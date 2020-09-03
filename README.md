@@ -18,7 +18,7 @@ Python Files
     ```
     --image_directory data/images/
     ```
-    followed by a space to seperate each hyperparameter entered. Please refer to run_script.ipynb Jupyter Notebook file to see specific hyperparamters
+    followed by a space to seperate each hyperparameter entered. Please refer to **run_script.ipynb** Jupyter Notebook file to see specific hyperparamters
     
   - enhance.py
     - An exectutable python script which takes in directory to a low resolution image file, image transformation length, directory to ideal generator, and directory to which the enhanced image will be saved. This script passes the Tensor form of specified image through the generator to create an enhanced version of the image and saves it to specified directory. Below is a example of how to run the file:
