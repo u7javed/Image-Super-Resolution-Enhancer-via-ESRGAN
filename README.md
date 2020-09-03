@@ -15,8 +15,11 @@ This tool enhances image resolution quality using deep convolutional neural netw
 
 ## One-to-One Comparions (Low Res --> Enhanced)
 
+### 150 Epochs Trained
 ![](data/uploads/121_lr.png) ![](data/uploads/121_enhanced.png)
 
-![](data/uploads/low_res_4.png) ![](data/uploads/enhanced_image_4.png)
-
+### 50 Epochs Trained
 ![](data/uploads/low_res_5.png) ![](data/uploads/enhanced_image_5.png)
+
+### 25 Epochs Trained
+![](data/uploads/low_res_4.png) ![](data/uploads/enhanced_image_4.png)
