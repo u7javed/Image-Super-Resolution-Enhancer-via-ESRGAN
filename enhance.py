@@ -15,7 +15,7 @@ def main():
     # parameters needed to enhance image
     parser.add_argument('--image_file', type=str, default='test_image.png', help='location of image file to be enhanced')
     parser.add_argument('--file_length', type=int, default=128, help='sidelength of of transformation (ideal square = 128)')
-    parser.add_argument('--dir_to_generator', type=st, default='best_generator.pt', help='directory to generator to enhance images')
+    parser.add_argument('--dir_to_generator', type=str, default='best_generator.pt', help='directory to generator to enhance images')
     parser.add_argument('--save_directory', type=str, default='', help='directory where enhanced image will be saved')
 
     args = parser.parse_args()
