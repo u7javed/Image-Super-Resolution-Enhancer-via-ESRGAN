@@ -34,6 +34,11 @@ Steps to creating your own enhancer are really simple.
     - Run **enhance.py** which specified hyperparamters. This file takes in the location to the image you desire to enhance, location of your ideal generator model weights, and other hyperparamters (please refer to **enhance.py** description above). This will generate an enhance version of the image you passed through
  - Step 3:
     - Thats it. Congratulations.
+    
+## Dataset
+
+The dataset I used to train the ESRGAN is the DIV2K dataset. Please refer to link: https://data.vision.ee.ethz.ch/cvl/DIV2K/
+Specifically I used **DIV2K_train_HR** and **DIV2K_train_mild_LR** as my high resolution and low resolution training sets respectively. I used the valid equivalents as test datasets to test performance of the generator at each epoch. Please note, the more rich and diverse the dataset, the more robust your generator will be but will also increase training time. All tests and runs shown were conducted on a TITAN RTX gpu.
 
 Back to the functionality of this respository, lets take a look at some examples of enhanced images!
 
