@@ -38,6 +38,9 @@ Steps to creating your own enhancer are really simple.
 ## Dataset
 
 The dataset I used to train the ESRGAN is the DIV2K dataset. Please refer to link: https://data.vision.ee.ethz.ch/cvl/DIV2K/
+
+Reference to Introductory Dataset Paper: https://people.ee.ethz.ch/~timofter/publications/Agustsson-CVPRW-2017.pdf
+
 Specifically I used **DIV2K_train_HR** and **DIV2K_train_mild_LR** as my high resolution and low resolution training sets respectively. I used the valid equivalents as test datasets to test performance of the generator at each epoch. Please note, the more rich and diverse the dataset, the more robust your generator will be but will also increase training time. All tests and runs shown were conducted on a TITAN RTX gpu.
 
 Back to the functionality of this respository, lets take a look at some examples of enhanced images!
