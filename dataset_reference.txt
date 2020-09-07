@@ -1,0 +1,8 @@
+@InProceedings{Timofte_2018_CVPR_Workshops,
+author = {Timofte, Radu and Gu, Shuhang and Wu, Jiqing and Van Gool, Luc and Zhang, Lei and
+Yang, Ming-Hsuan and Haris, Muhammad and others},
+title = {NTIRE 2018 Challenge on Single Image Super-Resolution: Methods and Results},
+booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+month = {June},
+year = {2018}
+}
